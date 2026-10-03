@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Sudo Sound · Banda de rock</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 { font-family:"Montserrat",sans-serif }
+.hero { background:linear-gradient(135deg,#111 0%,#444 100%); color:#fff; min-height:70vh }
+.cover { height:160px; background:linear-gradient(135deg,#222,#777) }
+</style>
+</head>
+<body class="w3-black">
+
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large" href="#home">INICIO</a>
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-small" href="#band">BANDA</a>
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-small" href="#tour">GIRA</a>
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-small" href="#contact">CONTACTO</a>
+  </div>
+</div>
+
+<header class="hero w3-display-container w3-center" id="home">
+  <div class="w3-display-middle w3-padding">
+    <h1 class="w3-jumbo w3-hide-small">SUDO SOUND</h1>
+    <h1 class="w3-xxxlarge w3-hide-large w3-hide-medium">SUDO SOUND</h1>
+    <p class="w3-large">Rock con permisos de administrador</p>
+  </div>
+</header>
+
+<div class="w3-content w3-padding-large" style="max-width:1000px">
+
+  <section class="w3-container w3-padding-64 w3-center" id="band">
+    <h2 class="w3-wide">LA BANDA</h2>
+    <p class="w3-opacity"><i>Cuatro músicos, un solo directorio raíz</i></p>
+    <p class="w3-justify">Sudo Sound nace en un local de ensayo de Valencia. Mezclamos rock y electrónica con letras sobre redes, servidores y madrugadas de guardia. Esta web es un ejemplo ficticio creado para una práctica de aula.</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third w3-section"><p>Nombre</p><div class="cover w3-round"></div></div>
+      <div class="w3-third w3-section"><p>Nombre</p><div class="cover w3-round"></div></div>
+      <div class="w3-third w3-section"><p>Nombre</p><div class="cover w3-round"></div></div>
+    </div>
+  </section>
+
+  <section class="w3-container w3-padding-64" id="tour">
+    <h2 class="w3-wide w3-center">GIRA</h2>
+    <p class="w3-opacity w3-center"><i>Fechas ficticias</i></p>
+    <ul class="w3-ul w3-border w3-white w3-text-grey">
+      <li class="w3-padding">Noviembre <span class="w3-tag w3-red w3-margin-left">Agotado</span></li>
+      <li class="w3-padding">Diciembre <span class="w3-tag w3-teal w3-margin-left">Pocas entradas</span></li>
+      <li class="w3-padding">Enero <span class="w3-badge w3-right w3-margin-right">3</span></li>
+    </ul>
+    <div class="w3-row-padding w3-padding-32">
+      <div class="w3-third"><div class="cover w3-round"></div><p>Valencia</p></div>
+      <div class="w3-third"><div class="cover w3-round"></div><p>Castellón</p></div>
+      <div class="w3-third"><div class="cover w3-round"></div><p>Alicante</p></div>
+    </div>
+  </section>
+
+  <section class="w3-container w3-padding-64" id="contact">
+    <h2 class="w3-wide w3-center">CONTACTO</h2>
+    <p class="w3-opacity w3-center"><i>¿Quieres que toquemos en tu fiesta?</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker w3-xxlarge w3-margin-right"></i> Valencia, España<br>
+        <i class="fa fa-envelope w3-xxlarge w3-margin-right"></i> contacto@ejemplo.test
+      </div>
+      <form class="w3-col m6" onsubmit="return false">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half"><input class="w3-input w3-border" type="text" placeholder="Nombre" required></div>
+          <div class="w3-half"><input class="w3-input w3-border" type="email" placeholder="Correo" required></div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Mensaje" required>
+        <button class="w3-button w3-section w3-right w3-white" type="submit">ENVIAR</button>
+      </form>
+    </div>
+  </section>
+</div>
+
+<footer class="w3-container w3-padding-32 w3-center w3-opacity w3-black">
+  <p>Práctica RA1.2 · Diseño basado en la plantilla W3.CSS Band</p>
+</footer>
+</body>
+</html>
